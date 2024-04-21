@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KittenCafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header"> 
+        <a href="kitttencafe.html"><img src="logo.png" class="logo" ></a>
+        <a href="kitttencafe.html" class="name"><img src="name.png" class="name"></a>
+        <a href="login.html" class="login"><img src="login.png" class="login1"></a>
+        <div class="navigation">
+            <nav class="navig">
+                <a href="kitttencafe.html" class="wisk">Home</a>
+                <a href="cat.html" class="wisk">Cat</a>
+                <a href="price.html" class="wisk">Price</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="content">
+        <div id="login-status" style="display: none;"></div>
+
+        <div class="login-container">
+            <h2 class="loginname">Login</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="button-login">Login</button>
+            </form>
+        </div>      
+    </main>
+
+    <footer class="basement">
+        <div class="items1">
+            <p class="footername">&copy; 2024 Kitten Cafe </p>
+            <p class="footername">  This website is created for demonstration purposes only.</p>
+        </div>
+        <div class="items">
+            <p class="footer-item">Address <br><a href="#" class="street"> Street 11</a></p>
+        </div>
+        <div class="items">
+            <p class="footer-item">Contacts<br><a href="#" class="street">09-55-63-5</a><a href="#" class="street">25-87-96-4</a></p>
+        </div> 
+        <div class="item">
+            <a href="https://www.instagram.com/" target="_blank" class="footer-items">Instagram</a><a href="https://www.instagram.com/" class="social"><img src="instagram.png"></a>
+            <a href="https://www.facebook.com/?locale=uk_UA" target="_blank" class="footer-items">Facebook</a><a href="https://www.facebook.com/?locale=uk_UA" class="social"><img src="facebook.png"></a>
+            <a href="https://www.tiktok.com/uk-UA/" target="_blank" class="footer-items">Tiktok</a><a href="https://www.tiktok.com/uk-UA/" class="social"><img src="tiktok.png"></a>
+            <a href="mailto:kittencafeclients@gmail.com" target="_blank" class="footer-items">kittencafeclients@gmail.com</a><a href="mailto:kittencafeclients@gmail.com" class="social"><img src="gmail.png"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="cat.js"></script> 
+</body>
+</html>
+
